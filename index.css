@@ -1,0 +1,765 @@
+.desktop-1-child {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.foodkart {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 100px;
+  z-index: 2;
+}
+.foodkart-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 92.6px;
+}
+.indian-restaurant {
+  align-self: stretch;
+  height: 115px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.text-2 {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.indian-restaurant-parent,
+.text-2-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-2-wrapper {
+  width: 2px;
+  height: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.indian-restaurant-parent {
+  width: 273px;
+  flex-direction: column;
+  gap: 14px;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: 36px;
+  color: #ff843f;
+}
+.image-caption,
+.text-3 {
+  width: 0;
+  position: relative;
+  display: inline-block;
+}
+.text-3-wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 21px;
+}
+.gujrati-thali-child,
+.gujrati-thali-item {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+}
+.gujrati-thali-child {
+  height: 80.9px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.gujrati-thali-item {
+  height: 100%;
+  top: 0;
+  right: -0.1px;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.gujrati-thali {
+  height: 83.4px;
+  width: 80.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 66.2px 7px 0.1px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 17.1px;
+  z-index: 5;
+}
+.description-content,
+.text-31 {
+  width: 0;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.text-3-container {
+  width: 10.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 17.2px 10px 0 0;
+  box-sizing: border-box;
+}
+.text-4 {
+  width: 0;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.text-4-wrapper {
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.2px 0 0;
+  box-sizing: border-box;
+}
+.description-content-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 63.7px var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  min-width: 76px;
+}
+.text-32 {
+  width: 0;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.gujrati-thali-parent,
+.text-3-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-3-frame {
+  width: 0;
+  flex-direction: column;
+  padding: 41.7px 0 0;
+  box-sizing: border-box;
+}
+.gujrati-thali-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 22.7px;
+}
+.explore-button-child {
+  height: 52px;
+  width: 182px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    90deg,
+    rgba(153, 148, 148, 0.79) 4.5%,
+    rgba(152, 147, 147, 0.79) 39%,
+    rgba(51, 49, 49, 0.79) 73.5%
+  );
+  display: none;
+}
+.explore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 26px;
+  font-family: var(--font-inria-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 132px;
+  height: 41px;
+  z-index: 3;
+}
+.wrapper-vector-1-child {
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  object-fit: contain;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  transform: scale(4.636);
+}
+.wrapper-vector-1 {
+  position: absolute;
+  top: 7px;
+  left: 125px;
+  width: 11px;
+  height: 18px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-content {
+  height: 41px;
+  flex: 1;
+  position: relative;
+}
+.explore-button {
+  cursor: pointer;
+  border: 0;
+  padding: 11px var(--padding-xl) 0 26px;
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    90deg,
+    rgba(153, 148, 148, 0.79) 4.5%,
+    rgba(152, 147, 147, 0.79) 39%,
+    rgba(51, 49, 49, 0.79) 73.5%
+  );
+  flex-direction: row;
+  z-index: 2;
+}
+.explore-button,
+.frame-parent,
+.thali-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thali-header {
+  width: 212px;
+  flex-direction: row;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.frame-parent {
+  width: 243px;
+  flex-direction: column;
+  gap: 64.2px;
+}
+.services-content-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 35px;
+  font-size: var(--font-size-21xl);
+}
+.services-content {
+  width: 323px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 62.4px;
+  min-width: 323px;
+  max-width: 100%;
+}
+.text-41 {
+  width: 0;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.text-4-container {
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 412.1px 0 0;
+  box-sizing: border-box;
+}
+.menu {
+  text-decoration: none;
+  width: 76px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.menu-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.text-33 {
+  width: 0;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.frame-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 6;
+}
+.text-3-parent {
+  width: 66.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 84.7px var(--padding-xl) 1.9px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: var(--font-size-21xl);
+}
+.frame-div,
+.navigation {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 344px;
+  font-size: var(--font-size-lg);
+}
+.frame-div {
+  flex-direction: row;
+  gap: 4px;
+  min-width: 85px;
+  font-size: var(--font-size-21xl);
+}
+.food {
+  text-decoration: none;
+  align-self: stretch;
+  height: 17px;
+  position: relative;
+  line-height: 21px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.food-wrapper {
+  width: 89px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.services,
+.services-description {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.services {
+  text-decoration: none;
+  color: inherit;
+  min-width: 72px;
+}
+.services-description {
+  width: 0;
+}
+.services-description-wrapper {
+  align-self: stretch;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 27px;
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+}
+.frame-wrapper1,
+.services-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.services-parent {
+  align-self: stretch;
+  gap: 523px;
+}
+.frame-wrapper1 {
+  width: 108px;
+  padding: var(--padding-12xs) 36px 0 0;
+  box-sizing: border-box;
+}
+.vlogs {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 2;
+}
+.vlogs-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 34px;
+}
+.frame-container,
+.frame-group,
+.services-content-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  flex: 1;
+  flex-direction: column;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  min-width: 309px;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.services-content-parent {
+  width: 819px;
+  flex-direction: row;
+  gap: 20.4px;
+  max-width: calc(100% - 159px);
+}
+.vlogs-description {
+  width: 0;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.vlogs-description-wrapper {
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 662px 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+}
+.restaurant-info-child {
+  position: absolute;
+  top: 161px;
+  left: 433px;
+  width: 100px;
+  height: 100px;
+}
+.noise-1-icon {
+  height: 901px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.gujrati-thali1 {
+  margin: 0 !important;
+  position: absolute;
+  top: 322px;
+  left: 195px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 3;
+}
+.include-ricedalvegetablerot {
+  height: 51px;
+  width: 353px;
+  position: absolute;
+  margin: 0 !important;
+  top: 399px;
+  left: 191px;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  max-height: 51px;
+  word-break: break-word;
+  z-index: 4;
+}
+.noise-1-parent {
+  position: absolute;
+  top: -34px;
+  left: -81px;
+  width: 1361px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 64px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.grommet-icon-1,
+.scheduler-navigator-1-icon {
+  position: absolute;
+  top: 34px;
+  left: 1195px;
+  width: 20px;
+  height: 23px;
+  object-fit: contain;
+  z-index: 2;
+}
+.grommet-icon-1 {
+  top: 33px;
+  left: 1121px;
+  width: 24px;
+  height: 24px;
+}
+.image-2-1,
+.restaurant-info-item {
+  position: absolute;
+  top: 402.4px;
+  left: 206px;
+  width: 80.5px;
+  height: 80.9px;
+  z-index: 5;
+}
+.image-2-1 {
+  top: 401.6px;
+  left: 209.9px;
+  width: 72.7px;
+  height: 84.9px;
+  object-fit: contain;
+  z-index: 6;
+}
+.image-overlay-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.image-3-1 {
+  position: absolute;
+  width: calc(100% - 9.1px);
+  top: 2px;
+  right: 2.5px;
+  left: 6.6px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 74.2px;
+  object-fit: contain;
+  z-index: 6;
+}
+.image-overlay,
+.restaurant-info-inner {
+  position: absolute;
+  top: 403.6px;
+  left: 307.2px;
+  width: 80.5px;
+  height: 80.9px;
+}
+.restaurant-info-inner {
+  top: 403.8px;
+  left: 405.5px;
+  z-index: 5;
+}
+.ellipse-icon,
+.image-2-11 {
+  position: absolute;
+  top: 166px;
+  left: 693px;
+  width: 536px;
+  height: 523px;
+  z-index: 3;
+}
+.image-2-11 {
+  top: 161px;
+  left: 719px;
+  width: 484px;
+  height: 549px;
+  object-fit: contain;
+  z-index: 4;
+}
+.restaurant-info {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px 65px 109px;
+  gap: 159px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1100px) {
+  .desktop-1 {
+    gap: 79px;
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .indian-restaurant {
+    font-size: 29px;
+  }
+  .description-content,
+  .image-caption,
+  .services-description,
+  .text-2,
+  .text-3,
+  .text-31,
+  .text-32,
+  .text-33,
+  .text-4,
+  .text-41,
+  .vlogs-description {
+    font-size: var(--font-size-13xl);
+  }
+  .gujrati-thali1 {
+    font-size: 51px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .services-content {
+    flex: 1;
+  }
+  .frame-group {
+    gap: 17px;
+  }
+  .services-content-parent {
+    flex-wrap: wrap;
+  }
+  .vlogs-description-wrapper {
+    padding-top: 430px;
+    box-sizing: border-box;
+  }
+  .desktop-1 {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .foodkart {
+    font-size: 19px;
+  }
+  .indian-restaurant {
+    font-size: 22px;
+  }
+  .description-content,
+  .image-caption,
+  .text-2,
+  .text-3,
+  .text-31,
+  .text-32,
+  .text-4 {
+    font-size: var(--font-size-5xl);
+  }
+  .gujrati-thali-parent {
+    flex-wrap: wrap;
+  }
+  .explore {
+    font-size: 21px;
+  }
+  .services-content {
+    gap: 31px;
+  }
+  .text-41 {
+    font-size: var(--font-size-5xl);
+  }
+  .text-4-container {
+    padding-top: 268px;
+    box-sizing: border-box;
+  }
+  .services-description,
+  .text-33 {
+    font-size: var(--font-size-5xl);
+  }
+  .frame-group {
+    flex-wrap: wrap;
+  }
+  .services-content-parent {
+    max-width: 100%;
+  }
+  .vlogs-description {
+    font-size: var(--font-size-5xl);
+  }
+  .vlogs-description-wrapper {
+    display: none;
+  }
+  .gujrati-thali1 {
+    font-size: 38px;
+  }
+  .desktop-1 {
+    gap: var(--gap-xl);
+  }
+}
